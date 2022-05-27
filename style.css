@@ -1,0 +1,24 @@
+html {
+    background-color: rgb(101, 192, 235);
+}
+
+body {
+    border: 2px solid red;
+    width: 98vw;
+    height: 97vh;
+    margin: 0px;
+}
+
+a:hover {
+    background-color: green;
+    color: white;
+}
+
+table {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+thead {
+    border: 1px solid black;
+}
