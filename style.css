@@ -14,11 +14,24 @@ a:hover {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 table {
     border: 2px solid red;
     padding: 5px;
 }
 
-thead {
-    border: 3px solid rgb(19, 18, 18);
+thead > tr > th {
+    border: 1px solid red;
 }
+
+tbody > tr > td {
+    border: 1px solid rgb(92, 92, 233);
+}
+
+
+/* th, td {
+    border: 1px solid green;
+} */
