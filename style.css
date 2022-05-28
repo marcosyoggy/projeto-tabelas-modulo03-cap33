@@ -31,6 +31,11 @@ tbody > tr > td {
     border: 1px solid rgb(92, 92, 233);
 }
 
+td[colspan] {
+    color: red;
+    text-align: center;
+}
+
 
 /* th, td {
     border: 1px solid green;
